@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.jar.JarEntry;
 
-public class LeCodeProblem54 {
+public class LeetCodeProblem54 {
     static class Solution {
         public List<Integer> spiralOrder(int[][] matrix) {
             List<Integer> res = new ArrayList<>();
