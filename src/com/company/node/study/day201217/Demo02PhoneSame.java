@@ -29,22 +29,22 @@ public class Demo02PhoneSame {
 
         System.out.println("===============");
         Phone two = one; // 把one当中对象保存的地址值赋值给two
-        // null
+        // 苹果
         System.out.println(two.brand);
-        // 0.0
+        // 8848.0
         System.out.println(two.price);
-        // null
+        // 金色
         System.out.println(two.color);
         System.out.println("======================");
 
         two.brand = "佟丽娅";
         two.price = 6061.0;
         two.color = "蓝色";
-        // 苹果
+        // 佟丽娅
         System.out.println(two.brand);
-        // 8848.0
+        // 6061.0
         System.out.println(two.price);
-        // 金色
+        // 蓝色
         System.out.println(two.color);
         System.out.println("======================");
 
