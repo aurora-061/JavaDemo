@@ -1,4 +1,4 @@
-package com.company.node.study.day201221;
+package com.company.node.study.day201222;
 
 /*
 定义一个类，用来模拟“手机”失误。
@@ -21,15 +21,6 @@ public class Phone {
     String brand; // 品牌
     double price;// 价格
     String color;// 颜色
-
-    @Override
-    public String toString() {
-        return "Phone{" +
-                "brand='" + brand + '\'' +
-                ", price=" + price +
-                ", color='" + color + '\'' +
-                '}';
-    }
 
     //     成员方法
     public void call(String who) {
