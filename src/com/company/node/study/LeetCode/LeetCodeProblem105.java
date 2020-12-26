@@ -1,4 +1,4 @@
-package com.company.node.study.day201226;
+package com.company.node.study.LeetCode;
 
 /**
  * Definition for a binary tree node.

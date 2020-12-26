@@ -7,7 +7,8 @@ public class Demo01Person {
 
         System.out.println("========================");
         person.name = "佟丽娅";
-        person.age = 18;
+//        person.age = 18; 直接访问private内容是错误写法
+        person.setAge(20);
         person.show();
     }
 }
