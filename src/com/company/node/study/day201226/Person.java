@@ -9,6 +9,10 @@ package com.company.node.study.day201226;
 但是，超出本类范围之内就不能再直接访问了
 
 间接访问private成员变量，定义一对Getter/Setter方法
+
+必须叫getXxx或者setXxx命名规则
+对于Getter方法来说，不能有参数，返回值类型和成员变量对应
+对于Setter方法来说，不能有返回值，参数类型和成员变量对应
  */
 public class Person {
     String name;

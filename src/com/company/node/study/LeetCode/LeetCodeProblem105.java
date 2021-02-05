@@ -10,6 +10,7 @@ package com.company.node.study.LeetCode;
  * }
  */
 
+/*
 public class LeetCodeProblem105 {
     class Solution {
         public TreeNode buildTree(int[] preorder, int[] inorder) {
@@ -29,3 +30,4 @@ public class LeetCodeProblem105 {
         TreeNode(int x) { val = x; }
     }
 }
+*/
